@@ -1,4 +1,5 @@
 (executable
- (public_name AnyApp)
  (name main)
- (libraries AnyApp))
+ (modes js)
+ (libraries incr_dom AnyAppLib)
+ (preprocess (pps js_of_ocaml-ppx ppx_jane)))

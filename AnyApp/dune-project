@@ -2,24 +2,27 @@
 
 (name AnyApp)
 
-(generate_opam_files true)
-
 (source
- (github username/reponame))
+ (github TrashGameDeveloper/AnyApp))
 
-(authors "Author Name")
+(authors 
+  "Xiaolong Gao"
+  "Matthew Rosen"
+  "Daniel Jann"  
+)
 
-(maintainers "Maintainer Name")
+(maintainers "Daniel Jann")
 
 (license LICENSE)
 
-(documentation https://url/to/documentation)
-
 (package
  (name AnyApp)
- (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml dune)
+ (synopsis "Small Dashboard Project")
+ (description "Small Dashboard Project That Tracks The (Something)")
+ (depends 
+  ocaml
+  dune
+ )
  (tags
   (topics "to describe" your project)))
 

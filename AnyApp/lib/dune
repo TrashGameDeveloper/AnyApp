@@ -1,2 +1,4 @@
 (library
- (name AnyApp))
+ (name AnyAppLib)
+ (libraries core incr_dom)
+ (preprocess (pps ppx_jane)))
