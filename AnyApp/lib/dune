@@ -1,5 +1,5 @@
 (library
  (name AnyAppLib)
- (libraries core incr_dom)
+ (libraries core bonsai.web)
  (preprocess
   (pps ppx_jane)))

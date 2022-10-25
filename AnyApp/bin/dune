@@ -1,6 +1,6 @@
 (executable
  (name main)
  (modes js)
- (libraries incr_dom AnyAppLib)
+ (libraries AnyAppLib bonsai.web)
  (preprocess
-  (pps js_of_ocaml-ppx ppx_jane)))
+  (pps ppx_jane)))

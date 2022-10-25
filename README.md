@@ -1,6 +1,6 @@
 To build the executable, install the required libraries by running
 ```
-opam -y install async core incr_dom
+opam -y install async core bonsai
 ```
 
 Then cd into AnyApp directory and run

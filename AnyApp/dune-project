@@ -5,11 +5,7 @@
 (source
  (github TrashGameDeveloper/AnyApp))
 
-(authors 
-  "Xiaolong Gao"
-  "Matthew Rosen"
-  "Daniel Jann"  
-)
+(authors "Xiaolong Gao" "Matthew Rosen" "Daniel Jann")
 
 (maintainers "Daniel Jann")
 
@@ -19,10 +15,7 @@
  (name AnyApp)
  (synopsis "Small Dashboard Project")
  (description "Small Dashboard Project That Tracks The (Something)")
- (depends 
-  ocaml
-  dune
- )
+ (depends ocaml dune core async bonsai)
  (tags
   (topics "to describe" your project)))
 
