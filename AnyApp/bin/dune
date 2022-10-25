@@ -2,4 +2,5 @@
  (name main)
  (modes js)
  (libraries incr_dom AnyAppLib)
- (preprocess (pps js_of_ocaml-ppx ppx_jane)))
+ (preprocess
+  (pps js_of_ocaml-ppx ppx_jane)))
