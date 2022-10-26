@@ -1,6 +1,10 @@
 (* Compilation module for UI components *)
 open! Bonsai_web
 
-val banner : banner_title:string -> Vdom.Node.t
+module Banner : sig
+  val banner : banner_title:string -> Vdom.Node.t
+end
 
-val table : unit -> Vdom.Node.t
+module Table : sig
+  val table : unit -> Vdom.Node.t
+end

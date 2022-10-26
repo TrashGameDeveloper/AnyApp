@@ -4,6 +4,6 @@ open! Components
 
 let application =
   Vdom.Node.div
-    [ Components.banner ~banner_title:"Raw Material Dashboard"
-    ; Components.table () ]
+    [ Banner.banner ~banner_title:"Global Energy Consumption Dashboard"
+    ; Table.table () ]
   |> Bonsai.const
